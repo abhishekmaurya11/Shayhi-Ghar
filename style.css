@@ -93,7 +93,7 @@ overflow:hidden;
    }
 }
 
-@media (max-width: 385px) {
+@media (max-width: 385px) or (min-width: 0px) {
     .nav-bar-container {
         width: 100%;
     }
