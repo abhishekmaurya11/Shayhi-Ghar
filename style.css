@@ -17,7 +17,7 @@ body{
     /* overflow: auto; */
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) or (min-width: 300px) {
     .nav-bar-container {
         width: 100%;
     }
@@ -48,7 +48,7 @@ body{
     background-color: #f5f5f5;
       background:url("woodencraft.png") repeat center center;
     background-size: auto auto;
-overflow:hidden;
+/* overflow:hidden; */
 
     background-position: center;
   /* background-size: contain; */
@@ -68,8 +68,6 @@ overflow:hidden;
     background-color: #fff;
     background-color: transparent;
     /* width: 40%; */
-    width: 100vw;
-    height: 100vh;
 
     display: flex;
     flex-direction: column;
