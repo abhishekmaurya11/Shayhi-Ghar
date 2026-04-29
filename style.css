@@ -17,7 +17,6 @@ body{
     /* overflow: auto; */
 }
 
-
 @media (min-width: 768px) {
     .nav-bar-container {
         width: 100%;
@@ -62,71 +61,20 @@ overflow:hidden;
 
 
 
-@media (min-width: 499px) or (max-width: 510px) {
-    .nav-bar-container {
-        width: 100%;
-    }
-    .flex-logo-section {
-        width: 100%;
-        flex-direction: column;
-        gap: 10px;
-    }
-    .home-logo {
-        width: 120px;
-    }
-    .site-title {
-        font-size: 1.8em;
-    }
-    .nav-bar {
-        width: 100%;
-        padding: 20px;
-    }
-    .nav-bar > ul > li > a {
-        width: 90%;
-        padding: 15px 0;
-        background-size: cover;
-    }
-   body{
-    background-size: cover;
-    background-position: center;
-    background:url("woodencraft.png") no-repeat center center;
 
-   }
+
+.nav-bar-container{
+    /* border: 1px solid #333; */
+    background-color: #fff;
+    background-color: transparent;
+    /* width: 40%; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
 }
-
-@media (max-width: 385px) or (min-width: 0px) {
-    .nav-bar-container {
-        width: 100%;
-    }
-    .flex-logo-section {
-        width: 100%;
-        flex-direction: column;
-        gap: 10px;
-    }
-    .home-logo {
-        width: 120px;
-    }
-    .site-title {
-        font-size: 1.8em;
-    }
-    .nav-bar {
-        width: 100%;
-        padding: 20px;
-    }
-    .nav-bar > ul > li > a {
-        width: 90%;
-        padding: 15px 0;
-        background-size: cover;
-    }
-
-    body{
-        background-position: center;
-        background:url("woodencraft.png") no-repeat center center;
-        background-size: auto auto;
-    }
-    
-}
-
 
 .flex-logo-section{
     display: flex;
@@ -203,20 +151,3 @@ width: 100%;
 }        
 
 
-.nav-bar-container{
-    /* border: 1px solid #333; */
-    background-color: #fff;
-    background-color: transparent;
-    /* width: 40%; */
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-}
