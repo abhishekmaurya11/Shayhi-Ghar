@@ -17,6 +17,7 @@ body{
     /* overflow: auto; */
 }
 
+
 @media (min-width: 768px) {
     .nav-bar-container {
         width: 100%;
@@ -61,7 +62,13 @@ overflow:hidden;
 
 
 
+@media (min-width: 499px) or (max-width: 510px) {
+   body{
+    background-size: cover;
+    background-position: center;
+   }
 
+}
 
 
 
