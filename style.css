@@ -68,6 +68,8 @@ overflow:hidden;
     background-color: #fff;
     background-color: transparent;
     /* width: 40%; */
+    width: 100vw;
+    height: 100vh;
 
     display: flex;
     flex-direction: column;
