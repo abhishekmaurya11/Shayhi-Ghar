@@ -89,6 +89,7 @@ overflow:hidden;
    body{
     background-size: cover;
     background-position: center;
+    background:url("woodencraft.png") no-repeat center center;
 
    }
 }
