@@ -6,6 +6,8 @@
 }
 
 body{
+
+    margin: auto auto;
     font-family: 'Poppins', sans-serif;
     background-color: #f5f5f5;
       background:url("woodencraft.png") no-repeat center center;
